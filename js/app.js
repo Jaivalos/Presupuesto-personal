@@ -19,5 +19,12 @@ let totalIngresos = () =>{
     }
     return totalIngreso;
 }
+let totalEgresos = () =>{
+    let totalEgreso = 0;
+    for (const egreso of egresos) {
+        totalEgreso += egreso.valor;
+    }
+    return totalEgreso;
+}
 
 let cargarCabecero = () => {};
