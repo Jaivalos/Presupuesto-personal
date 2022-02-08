@@ -1,3 +1,4 @@
+/* Eliminamos el margin y el padding, ademas de colocarle el tipo de box-sizing que se utilizará */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,8 @@
     clear: both;
 }
 
+/* Al body general le agregamos un color, tipo y taañao de letra, ademas el posicionamiento relativo
+   El tamaño del body que en este caso es de toda la pantalla */
 body {
     color: #555;
     font-family: Open Sans;
@@ -19,9 +22,13 @@ body {
     font-weight: 400;
 }
 
+/* Se realizan tres clases las cuales una funciona para posicionar el elemento a la derecha
+   la clase rojo solo será para cambiar el color de letra
+   y la clase de rojo focus sera para agregarle un borde al mismo */
 .derecha { float: right; }
 .rojo { color: #FF5049 !important; }
 .rojofocus:focus { border: 1px solid #FF5049 !important; }
+
 
 .cabecero {
     height: 40vh;
