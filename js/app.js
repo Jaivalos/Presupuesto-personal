@@ -8,3 +8,9 @@ const egresos = [
     new Ingreso("Internet", 350),
     new Ingreso("Universidad", 875),
 ];
+
+const cargarApp = () =>{
+    let cargarCabecero = () =>{
+
+    }
+}
