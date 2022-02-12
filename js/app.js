@@ -10,6 +10,7 @@ const egresos = [
 
 const cargarApp = () => {
   cargarCabecero();
+  cargarIngresos();
 };
 
 let totalIngresos = () => {
@@ -71,4 +72,5 @@ const crearIngresoHTML = (ingreso) => {
      </div>
    </div>
   `;
+  return ingresoHTML;
 };
