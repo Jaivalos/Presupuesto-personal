@@ -191,11 +191,13 @@ body {
   float: left;
   width: 370px;
   margin-right: 70px;
+  overflow: hidden;
 }
 
 .egreso {
   float: left;
   width: 370px;
+  overflow: hidden;
 }
 
 h2 {
@@ -226,6 +228,7 @@ h2 {
 
 .elemento_descripcion {
   float: left;
+  overflow: hidden;
 }
 
 .elemento_valor {
