@@ -107,3 +107,4 @@ const eliminarEgreso = (id) =>{
   egresos.splice(indiceEliminar, 1);
   cargarCabecero(); cargarEgresos();
 }
+
