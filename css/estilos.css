@@ -149,7 +149,7 @@ body {
 }
 
 .agregar_descripcion {
-  width: 90%;
+  width: 40%;
 }
 .agregar_valor {
   width: 100px;
@@ -291,10 +291,13 @@ h2 {
   transform: translateX(-20px);
 }
 
-@media(max-width:900px){
+@media(max-width:815px){
   .contenedor {
     width: 100%;
-    margin: 60px auto;
-    display: block;
+    margin: 10px;
+    display: flex;
+  }
+  .agregar_descripcion {
+    width: 90%;
   }
 }
