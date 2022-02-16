@@ -90,10 +90,11 @@ const crearEgresoHTML = (egreso) => {
      <div class="elemento_descripcion">${egreso.descripcion}</div>
      <div class="derecha limpiarEstilos">
        <div class="elemento_valor">-${formatoMoneda(egreso.valor)}</div>
+       <div class="elemento_porcentaje">${formatoPorcentaje(egreso.valor/totalEgresos())}</div>
        <div class="elemento_eliminar">
          <button class="elemento_eliminar--btn">
            <ion-icon name="close-circle-outline"
-           onclick = eliminarEgreso(${egresos.id})></ion-icon>
+           onclick = eliminarEgreso(${egreso.id})></ion-icon>
          </button>
        </div>
      </div>

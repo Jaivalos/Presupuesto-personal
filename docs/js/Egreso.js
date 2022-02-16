@@ -5,7 +5,7 @@ class Egreso extends Dato{
         super(descripcion, valor);
         this._id = ++Egreso.idEgresos;
     }
-    get idEgresos(){
+    get id(){
         return this._id;
     }
 }
